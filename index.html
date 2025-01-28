@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="/uv/styles.css">
+
+<div class="image-container">
+    <img src="/uv/logo.png">
+</div>
+
+<h2 style="margin-top: 5px;">Ultraviolet | Static</h2>
+<p style="opacity: 0.5; margin-top: 10px;">Ultraviolet static is highly sophisticated proxy used for evading internet censorship.</p>
+
+<div class="search-container">
+    <form id="uv-form">
+        <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+        <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
+      </form>
+      <div class="desc left-margin">
+        <p id="uv-error"></p>
+        <pre id="uv-error-code"></pre>
+      </div>
+</div>
+
+<div class="bottom-left-buttons">
+    <button onclick="window.location.href='https://brunys.site/'">Brunys 2020-2025</button>
+</div>
+
+<script src="/uv/uv/uv.bundle.js" defer=""></script>
+<script src="/uv/uv/uv.config.js" defer=""></script>
+<script src="/uv/register-sw.js" defer=""></script>
+<script src="/uv/search.js" defer=""></script>
+<script src="/uv/index.js" defer=""></script>
+<script src="/uv/error.js" defer=""></script>
