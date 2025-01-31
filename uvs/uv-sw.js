@@ -1,5 +1,5 @@
-importScripts("/uv/uv/uv.sw.js");
+importScripts("/uvs/uv/uv.sw.js");
 
-const sw = new uvServiceWorker();
+const sw = new UVServiceWorker();
 
 self.addEventListener("fetch", (event) => event.respondWith(sw.fetch(event)));

@@ -1,30 +1,54 @@
-<link rel="stylesheet" href="/uv/styles.css">
+<html>
+<head>
+            <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFZ72L5FPQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-TFZ72L5FPQ');
+    </script>
+    <title>Ultraviolet Static | Sophisticated Web Proxy</title>
+    <link rel="icon" type="image/x-icon" href="/uv.png">
+    <link rel="stylesheet" href="/src/styles.css">
+    <meta property="og:title" content="Ultraviolet Static | Sophisticated Web Proxy">
+    <meta property="og:description" content="Ultraviolet Static is a proxy technology designed to bypass internet restrictions and enhance web browsing privacy. It achieves this by intercepting and modifying requests between the user and the target website, allowing access to otherwise blocked content. It's lightweight, often used for personal or educational purposes, and is typically integrated into applications for seamless use.">
+    <meta property="og:image" content="/storage/images/main/logo.png">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+    <meta name="theme-color" content="#0d0d0d">
+    <meta name="msapplication-TileColor" content="#262261">
+</head>
+<body>
 
-<div class="image-container">
-    <img src="/uv/logo.png">
-</div>
+    <div class="image-container">
+        <img src="uv.png">
+    </div>
 
-<h2 style="margin-top: 5px;">Ultraviolet | Static</h2>
-<p style="opacity: 0.5; margin-top: 10px;">Ultraviolet static is highly sophisticated proxy used for evading internet censorship.</p>
+    <h2 style="margin-top: 5px;">Ultraviolet | Static</h2>
+    <p style="opacity: 0.5; margin-top: 10px;">Ultraviolet is highly sophisticated proxy used for evading internet censorship.</p>
 
-<div class="search-container">
-    <form id="uv-form">
-        <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
-        <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
-      </form>
-      <div class="desc left-margin">
-        <p id="uv-error"></p>
-        <pre id="uv-error-code"></pre>
-      </div>
-</div>
+    <div class="search-container">
+        <form id="uv-form">
 
-<div class="bottom-left-buttons">
-    <button onclick="window.location.href='https://brunys.site/'">Brunys 2020-2025</button>
-</div>
+            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+            <input id="uv-address" type="text" placeholder="Search Google or type an URL..." />
 
-<script src="/uv/uv/uv.bundle.js" defer=""></script>
-<script src="/uv/uv/uv.config.js" defer=""></script>
-<script src="/uv/register-sw.js" defer=""></script>
-<script src="/uv/search.js" defer=""></script>
-<script src="/uv/index.js" defer=""></script>
-<script src="/uv/error.js" defer=""></script>
+        </form>
+    </div>
+
+    <div class="bottom-left-buttons">
+        <button onclick="window.location.href='https://discord.gg/3zyaAkuBRM'">Discord</button>
+    </div>
+
+    <script src="/src/script.js" defer></script>
+    <script src="/uvs/uv/uv.bundle.js" defer></script>
+    <script src="/uvs/uv/uv.config.js" defer></script>
+    <script src="/uvs/register-sw.js" defer></script>
+    <script src="/uvs/search.js" defer></script>
+    <script src="/uvs/index.js" defer></script>
+    <script src="/uvs/error.js" defer></script>
+
+</body>
+</html>

@@ -1,7 +1,7 @@
-importScripts('/uv/uv/uv.bundle.js');
-importScripts('/uv/uv/uv.config.js');
+importScripts('/uvs/uv/uv.bundle.js');
+importScripts('/uvs/uv/uv.config.js');
 
-class uvServiceWorker extends EventEmitter {     
+class UVServiceWorker extends EventEmitter {     
     constructor(config = __uv$config) {
         super();
         if (!config.bare) config.bare = '/bare/';
@@ -214,7 +214,7 @@ class uvServiceWorker extends EventEmitter {
     static Ultraviolet = Ultraviolet;
 };
 
-self.uvServiceWorker = uvServiceWorker;
+self.UVServiceWorker = UVServiceWorker;
 
 
 class ResponseContext {
